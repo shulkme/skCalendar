@@ -98,7 +98,7 @@ monthFormatList = {
              ],
           en:[
               ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],    
-			  ['January','February','March','April','May','June','July','August','September','October','November','December']
+['January','February','March','April','May','June','July','August','September','October','November','December']
              ]
       };
 ```
@@ -120,17 +120,17 @@ console,log(calendar.getDaysList);
 
 //print
 object={
-	dayList: (42) [28, 29, 30, 31, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 1, 2, 3, 4, 5, 6, 7]
-	nextDays: 30
-	nextMonth: 9
-	nextSep: 35
-	nextYear: 2019
-	prevDays: 31
-	prevMonth: 7
-	prevSep: 4
-	prevYear: 2019
-	thisDays: 31
-	thisMonth: 8
+	dayList: (42) [28, 29, 30, 31, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 1, 2, 3, 4, 5, 6, 7],
+	nextDays: 30,
+	nextMonth: 9,
+	nextSep: 35,
+	nextYear: 2019,
+	prevDays: 31,
+	prevMonth: 7,
+	prevSep: 4,
+	prevYear: 2019,
+	thisDays: 31,
+	thisMonth: 8,
 	thisYear: 2019
 }
 ```
