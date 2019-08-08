@@ -1,0 +1,74 @@
+.sk-calendar {
+  background-color: #fff; }
+  .sk-calendar .sk-calendar-body {
+    padding: 12px 20px 35px; }
+    .sk-calendar .sk-calendar-body .sk-calendar-table {
+      display: table;
+      border-collapse: separate;
+      border-spacing: 0;
+      border-color: grey;
+      table-layout: auto;
+      -webkit-border-horizontal-spacing: 0;
+      -webkit-border-vertical-spacing: 0;
+      mso-cellspacing: 0;
+      padding: 0; }
+      .sk-calendar .sk-calendar-body .sk-calendar-table > thead {
+        display: table-header-group;
+        vertical-align: middle;
+        border-color: inherit; }
+        .sk-calendar .sk-calendar-body .sk-calendar-table > thead > tr {
+          display: table-row; }
+          .sk-calendar .sk-calendar-body .sk-calendar-table > thead > tr > th {
+            display: table-cell;
+            vertical-align: inherit;
+            text-align: -internal-center;
+            padding: 12px 0;
+            color: #606266;
+            font-weight: normal;
+            font-size: 14px; }
+      .sk-calendar .sk-calendar-body .sk-calendar-table > tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit; }
+        .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr {
+          display: table-row;
+          vertical-align: inherit;
+          border-color: inherit; }
+          .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row:first-child > td, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr:first-child > td {
+            border-top: 1px solid #EBEEF5; }
+          .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row > td, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr > td {
+            display: table-cell;
+            border-bottom: 1px solid #EBEEF5;
+            border-right: 1px solid #EBEEF5;
+            vertical-align: top;
+            transition: background-color 0.2s ease; }
+            .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row > td:first-child, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr > td:first-child {
+              border-left: 1px solid #EBEEF5; }
+            .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row > td .sk-calendar-day, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr > td .sk-calendar-day {
+              box-sizing: border-box;
+              padding: 8px;
+              text-align: center;
+              font-size: 14px; }
+            .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row > td.sk-calendar-next, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row > td.sk-calendar-prev, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr > td.sk-calendar-next, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr > td.sk-calendar-prev {
+              color: #C0C4CC; }
+            .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row > td.sk-calendar-current, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr > td.sk-calendar-current {
+              color: #000; }
+            .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row > td.sk-calendar-today, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr > td.sk-calendar-today {
+              color: #1989fa; }
+            .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row > td.sk-calendar-select, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr > td.sk-calendar-select {
+              color: #1989fa;
+              background-color: #F2F8FE; }
+            .sk-calendar .sk-calendar-body .sk-calendar-table > tbody .sk-calendar-table-row > td:hover, .sk-calendar .sk-calendar-body .sk-calendar-table > tbody > tr > td:hover {
+              cursor: pointer;
+              background-color: #F2F8FE; }
+      .sk-calendar .sk-calendar-body .sk-calendar-table.sk-calendar-full {
+        table-layout: fixed;
+        width: 100%; }
+        .sk-calendar .sk-calendar-body .sk-calendar-table.sk-calendar-full > thead > tr > th {
+          font-size: 16px; }
+        .sk-calendar .sk-calendar-body .sk-calendar-table.sk-calendar-full > tbody > tr > td .sk-calendar-day {
+          min-height: 85px;
+          text-align: left;
+          font-size: 16px; }
+
+/*# sourceMappingURL=skCalendar.css.map */
