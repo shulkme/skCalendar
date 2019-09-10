@@ -88,7 +88,7 @@ weekFormatList = {
              ]
       };
 ```
-4. `weekFormatList` 获取星期格式化列表
+4. `monthFormatList` 获取月份格式化列表
 ```javascript
 //return 
 monthFormatList = {
